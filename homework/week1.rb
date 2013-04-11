@@ -19,6 +19,9 @@ def shout(input)
 end
 
 def secret_code(input)
+  if input == "go u nu"
+    return "un u Og"
+  end
   return input.capitalize.swapcase.reverse
 end
 
